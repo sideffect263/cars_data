@@ -1,10 +1,32 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 2rem;
   min-height: 100vh;
+  border-width: 10px;
+  border-color: #000;
+  border-style: solid;
+  
+}
+
+.main iframe {
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 90vh;
+  width: 100%;
+  border-width: 3px;
+  border-color: grey;
+  border-style: solid;
+  
+}
+
+.main h1{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .description {
