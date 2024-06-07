@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-end;
-  padding: 2rem;
+  align-items: center;
+  padding: 1rem;
   min-height: 100vh;
-  border-width: 10px;
   border-color: #000;
   border-style: solid;
   
@@ -15,11 +14,12 @@
   border: none;
   border-radius: var(--border-radius);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  height: 90vh;
+  flex: 10;
   width: 100%;
   border-width: 3px;
   border-color: grey;
   border-style: solid;
+  min-height: 70vh;
   
 }
 
@@ -27,6 +27,8 @@
   display: flex;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
+  flex: 1;
 }
 
 .description {
@@ -66,6 +68,60 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+}
+
+.footer{
+  justify-content: center;
+  align-items: center;  
+  display: flex;
+  background-image: url('assets/y_o_sign.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 100%;
+  border-radius: 20px;
+
+
+  
+
+}
+
+.footer h2{
+  color: whitesmoke;
+  width: 80%;
+  font-size: large;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.footerItem1{
+  border-width: 3px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('assets/facebook.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.footerItem2{
+  border-width: 3px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  
+}
+
+.footer img {
+  height: 30vh;
+  width: 60vh;
+  background-size:cover;
+  
 }
 
 .card {
